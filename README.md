@@ -1,6 +1,13 @@
 # AWS knowledge
 ## IAM
 ### User
+<details>
+  <summary>Summary</summary>
+  <br/>
+  
+  + There's the 5000 IAM user limit per account.
+</details>
+
 ### Group
 <details>
   <summary>Summary</summary>
