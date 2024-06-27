@@ -23,5 +23,5 @@
   <summary>Summary</summary>
   <br/>
   
-  + Role has two types of policy which can be attach: Trust Policy and Permissions Policy.
+  + Role has two types of policy which can be attach: _Trust Policy_ and _Permissions Policy_.
 </details>
