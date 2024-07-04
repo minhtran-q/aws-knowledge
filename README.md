@@ -25,3 +25,11 @@
   
   + Role has two types of policy which can be attach: _Trust Policy_ and _Permissions Policy_.
 </details>
+
+### Organization
+<details>
+  <summary>Summary</summary>
+  <br/>
+  
+  + The management account can't be restricted using service control policies.
+</details>
