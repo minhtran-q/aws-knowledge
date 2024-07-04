@@ -33,4 +33,5 @@
   <br/>
   
   + The management account is special and it's unaffected by any service control policies.
+  + They don't grant any permissions.
 </details>
