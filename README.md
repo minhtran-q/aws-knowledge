@@ -31,5 +31,5 @@
   <summary>Summary</summary>
   <br/>
   
-  + The management account can't be restricted using service control policies.
+  + The management account is special and it's unaffected by any service control policies.
 </details>
