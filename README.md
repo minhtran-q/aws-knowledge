@@ -32,6 +32,7 @@
   <summary>Summary</summary>
   <br/>
   
+  + Service Control Policies (SCPs) are just a boundary.
   + The management account is special and it's unaffected by any service control policies.
   + They don't grant any permissions.
 </details>
