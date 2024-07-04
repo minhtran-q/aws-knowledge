@@ -26,7 +26,8 @@
   + Role has two types of policy which can be attach: _Trust Policy_ and _Permissions Policy_.
 </details>
 
-### Organization
+## Organization
+### Service Control Policies
 <details>
   <summary>Summary</summary>
   <br/>
