@@ -35,4 +35,5 @@
   + Service Control Policies (SCPs) are just a boundary. They define the limit of what is and isn't allowed
   + The management account is special and it's unaffected by any service control policies.
   + They don't grant any permissions.
+  + The default of SCPs is FullAWSAccess.
 </details>
