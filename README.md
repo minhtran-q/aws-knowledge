@@ -37,3 +37,12 @@
   + They don't grant any permissions.
   + The default of SCPs is FullAWSAccess.
 </details>
+
+## CloudTrail
+<details>
+  <summary>Summary</summary>
+  <br/>
+  
+  + Enable by default on AWS account, but it's only the 90-day event history.
+</details>
+
