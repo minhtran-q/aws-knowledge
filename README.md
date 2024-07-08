@@ -46,5 +46,6 @@
   + Enable by default on AWS account, but it's only the 90-day event history.
   + Don't get any storage in S3 unless configure a trail.
   + Store management events only by default.
+  + IAM, STS, CloudFront log their data as global service events at US East 1 and trail will need to be enable to capure that data.
 </details>
 
