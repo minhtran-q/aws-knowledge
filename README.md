@@ -44,5 +44,6 @@
   <br/>
   
   + Enable by default on AWS account, but it's only the 90-day event history.
+  + Don't get any storage in S3
 </details>
 
