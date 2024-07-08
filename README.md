@@ -38,7 +38,7 @@
   + The default of SCPs is FullAWSAccess.
 </details>
 
-## CloudTrail
+### CloudTrail
 <details>
   <summary>Summary</summary>
   <br/>
