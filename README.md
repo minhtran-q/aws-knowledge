@@ -51,3 +51,11 @@
   + Not real-time.
 </details>
 
+## S3
+<details>
+  <summary>Summary</summary>
+  <br/>
+  
+  + S3 Bucket Policies is a form of resource policy.
+</details>
+
