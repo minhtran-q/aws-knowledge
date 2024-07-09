@@ -22,7 +22,8 @@
 <details>
   <summary>Summary</summary>
   <br/>
-  
+
+  + Can't log in to a Role.
   + Role has two types of policy which can be attach: _Trust Policy_ and _Permissions Policy_.
 </details>
 
