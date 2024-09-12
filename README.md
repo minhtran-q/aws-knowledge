@@ -55,10 +55,12 @@
 
 ## Amazon Elastic Container Registry (ECR)
 
-## S3
+## Amazon Simple Storage Service (S3)
 <details>
-  <summary>Summary</summary>
+  <summary>What is S3</summary>
   <br/>
+
+  S3 is an object storage service provided by AWS
   
   + S3 Bucket Policies is a form of resource policy.
 </details>
