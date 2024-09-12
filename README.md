@@ -60,8 +60,13 @@
   <summary>What is S3</summary>
   <br/>
 
-  S3 is an object storage service provided by AWS
+  S3 is an object storage service provided by AWS. It offers industry-leading scalability, data availability, security, and performance.
   
+  + S3 Bucket Policies is a form of resource policy.
+</details>
+<details>
+  <summary>Policy</summary>
+  <br/>
   + S3 Bucket Policies is a form of resource policy.
 </details>
 
