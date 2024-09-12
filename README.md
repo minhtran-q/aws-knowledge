@@ -63,6 +63,12 @@
   
 </details>
 <details>
+  <summary>Buckets and Objects</summary>
+  <br/>
+  
+  + S3 Bucket Policies is a form of resource policy.
+</details>
+<details>
   <summary>Policy</summary>
   <br/>
   
