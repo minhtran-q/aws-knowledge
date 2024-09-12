@@ -51,7 +51,7 @@
   + Not real-time.
 </details>
 
-## EC2 (ECS)
+## Amazon Elastic Container Service (ECS)
 
 ## Amazon Elastic Container Registry (ECR)
 
