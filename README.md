@@ -57,7 +57,7 @@
 
 ## Amazon Simple Storage Service (S3)
 <details>
-  <summary>What is S3</summary>
+  <summary>What is AWS S3</summary>
   <br/>
 
   S3 is an object storage service provided by AWS. It offers industry-leading scalability, data availability, security, and performance.
