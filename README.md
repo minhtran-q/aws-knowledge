@@ -52,14 +52,16 @@
 </details>
 
 ## EC2 (ECS)
-## Amazon Elastic Container Registry (ECR)
-## S3
 
+## Amazon Elastic Container Registry (ECR)
+
+## S3
 <details>
   <summary>Summary</summary>
   <br/>
   
   + S3 Bucket Policies is a form of resource policy.
 </details>
+
 ## Gateway
 
