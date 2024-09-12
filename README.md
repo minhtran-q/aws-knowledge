@@ -50,9 +50,11 @@
   + IAM, STS, CloudFront log their data as global service events at US East 1 and trail will need to be enable to capure that data.
   + Not real-time.
 </details>
+
 ## EC2 (ECS)
 ## Amazon Elastic Container Registry (ECR)
 ## S3
+
 <details>
   <summary>Summary</summary>
   <br/>
