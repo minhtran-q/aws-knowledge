@@ -64,6 +64,11 @@
 </details>
 
 ## Amazon Elastic Container Registry (ECR)
+<details>
+  <summary>What is ECR S3</summary>
+  <br/>
+
+</details>
 
 ## Amazon Simple Storage Service (S3)
 <details>
