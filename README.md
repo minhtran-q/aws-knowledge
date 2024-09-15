@@ -68,6 +68,7 @@
   
   
 </details>
+
 ### Data Management
 <details>
   <summary>Versioning</summary>
@@ -81,6 +82,7 @@
   
   
 </details>
+
 ### Security
 <details>
   <summary>Bucket Policies</summary>
