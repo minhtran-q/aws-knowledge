@@ -81,7 +81,7 @@
   
 </details>
 <details>
-  <summary>Policy</summary>
+  <summary>Bucket Policies</summary>
   <br/>
   
   
