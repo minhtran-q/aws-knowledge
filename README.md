@@ -68,6 +68,7 @@
   
   
 </details>
+### Data Management
 <details>
   <summary>Versioning</summary>
   <br/>
@@ -75,13 +76,26 @@
   
 </details>
 <details>
-  <summary>Object Lock:</summary>
+  <summary>Object Lock</summary>
+  <br/>
+  
+  
+</details>
+### Security
+<details>
+  <summary>Bucket Policies</summary>
   <br/>
   
   
 </details>
 <details>
-  <summary>Bucket Policies</summary>
+  <summary>Access Control Lists (ACLs)</summary>
+  <br/>
+  
+  
+</details>
+<details>
+  <summary>Encryption</summary>
   <br/>
   
   
