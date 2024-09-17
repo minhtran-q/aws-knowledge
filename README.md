@@ -51,6 +51,13 @@
   + Not real-time.
 </details>
 
+## Amazon Elastic Compute Cloud (EC2)
+<details>
+  <summary>What is AWS EC2</summary>
+  <br/>
+  
+</details>
+
 ## Amazon Virtual Private Cloud (VPC)
 <details>
   <summary>What is AWS VPC</summary>
