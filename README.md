@@ -87,9 +87,13 @@
   <br/>
 
 </details>
-
 <details>
   <summary>Fargate Mode</summary>
+  <br/>
+
+</details>
+<details>
+  <summary>Fargate vs EC2 Mode</summary>
   <br/>
 
 </details>
