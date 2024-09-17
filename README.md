@@ -63,7 +63,7 @@
   <summary>ECS terminology</summary>
   <br/>
 
-  + **Task Definition -** A blueprint that describes how a Docker container should launch.
+  + **Task Definition -** A blueprint that describes how a Docker container should launch. It contains settings like exposed port, docker image, cpu shares, memory requirement, command to run and environmental variables.
   + **Task -** This is a running container with the settings defined in the Task Definition. It can be thought of as an “instance” of a _**Task Definition**_.
   + **Service -** Defines long running tasks of the same Task Definition. This can be 1 running container or multiple running containers all using the same _**Task Definition**_.
   + **Cluster -** A logic group of _**EC2**_ instances.
