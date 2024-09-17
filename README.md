@@ -62,6 +62,17 @@
   <br/>
 
 </details>
+<details>
+  <summary>ECS terminology</summary>
+  <br/>
+
+  + **Task Definition -** A blueprint that describes how a Docker container should launch1.
+  + **Task -** This is a running container with the settings defined in the Task Definition. It can be thought of as an “instance” of a _**Task Definition**_.
+  + **Service -** Defines long running tasks of the same Task Definition. This can be 1 running container or multiple running containers all using the same _**Task Definition**_.
+  + **Cluster -** A logic group of _**EC2**_ instances.
+  + **Container Instance -** This is just an _**EC2**_ instance that is part of an _**ECS Cluster**_ and has docker and the ecs-agent running on it.
+
+</details>
 
 ## Amazon Elastic Container Registry (ECR)
 <details>
