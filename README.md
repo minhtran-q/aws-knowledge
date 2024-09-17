@@ -99,6 +99,11 @@
   <br/>
 
 </details>
+<details>
+  <summary>EC2 vs ECS</summary>
+  <br/>
+
+</details>
 
 ## Amazon Elastic Container Registry (ECR)
 <details>
