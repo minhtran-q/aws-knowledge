@@ -64,7 +64,7 @@
   <br/>
 
   + **Task Definition -** A blueprint that describes how a Docker container should launch. It contains settings like exposed port, docker image, cpu shares, memory requirement, command to run and environmental variables.
-  + **Task -** This is a running container with the settings defined in the Task Definition. It can be thought of as an “instance” of a _**Task Definition**_. A task can include one or more _containers_.
+  + **Task -** It can be thought of as an “instance” of a _**Task Definition**_. A task can include one or more _containers_.
   + **Container Definition -** A task definition is essentially a blueprint for your application. It describes how one or more containers should be launched within a cluster
   + **Service -** A service manage the lifecycle of tasks, ensuring that the desired number of tasks are always running.
   + **Cluster -** A logic group of _**EC2**_ instances.
