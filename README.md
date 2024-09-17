@@ -75,6 +75,17 @@
 </details>
 
 ### Cluster
+<details>
+  <summary>EC2 Mode</summary>
+  <br/>
+
+</details>
+
+<details>
+  <summary>Fagate Mode</summary>
+  <br/>
+
+</details>
 
 ## Amazon Elastic Container Registry (ECR)
 <details>
