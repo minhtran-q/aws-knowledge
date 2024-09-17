@@ -74,6 +74,8 @@
 
 </details>
 
+### Cluster
+
 ## Amazon Elastic Container Registry (ECR)
 <details>
   <summary>What is AWS ECR</summary>
