@@ -69,6 +69,16 @@
 ### Routing, Internet Gateway & Bastion Hosts
 ### VPC Subnets
 
+## Amazon Elastic Kubernetes Service (EKS)
+
+<details>
+  <summary>What is AWS EKS</summary>
+  <br/>
+
+  Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service that makes it easy for you to run Kubernetes on AWS and on-premises.
+
+</details>
+
 ## Amazon Elastic Container Service (ECS)
 <details>
   <summary>What is AWS ECS</summary>
