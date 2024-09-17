@@ -67,7 +67,7 @@
   + **Task -** It can be thought of as an “instance” of a _**Task Definition**_. A task can include one or more _containers_.
   + **Container Definition -** A task definition is essentially a blueprint for your application. It describes how one or more containers should be launched within a cluster
   + **Service -** A service manage the lifecycle of tasks, ensuring that the desired number of tasks are always running. It brings resilience and scalability to our tasks.
-  + **Cluster -** A logic group of _**EC2**_ instances.
+  + **Cluster -** A logic group of _**EC2**_ instances. _(fagate or ec2 mode)_
   + **Container Instance -** This is just an _**EC2**_ instance that is part of an _**ECS Cluster**_ and has docker and the ecs-agent running on it.
   
   ![](images/ECS_terminology.png)
