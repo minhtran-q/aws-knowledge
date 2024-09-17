@@ -95,6 +95,8 @@
 
   ![](images/ec2_mode.png)
 
+  With EC2 mode, ECS cluster is created within a VPC inside you AWS account. EC2 instances are used to run containers. When you create the cluster you specify an initial size which controls the number EC2 insatances. And you need to worry about capacity and availability for you cluster. So if you want to use containers in your infastructure but you absolutelt need to manage the container host capacity and availability then EC2 mode is for you.
+
 </details>
 <details>
   <summary>Fargate Mode</summary>
@@ -102,10 +104,24 @@
 
   ![](images/fargate_mode.png)
 
+  Core of the Farget architecture is a shared Farget infrastrucure platform. You gain access to resources fram shared pool, but you have no visibility of other customers. With Fargate, you use the same task and service definition, these are then allocated to the shared Fargate platform.
+
 </details>
 <details>
   <summary>Fargate vs EC2 Mode</summary>
   <br/>
+  
+  **When to use EC2:**
+  + When you have existing EC2 hardware that you want to leverage.
+  + When you need more control over the underlying instances, such as choosing specific instance types or optimizing for network or GPU performance.
+  + For complex microservices architectures.
+  + If you have specific compliance or security requirements.
+
+  **When to use Fargate:**
+  + If you prefer not to manage the underlying infrastructure and want AWS to handle it.
+  + Application with unpredictable or variable workloads, as it can scale up and down automatically.
+  + When you need to deploy quickly without worrying about the infrastructure setup.
+  + Suitable for short-lived tasks.
 
 </details>
 <details>
@@ -178,6 +194,7 @@ Amazon Elastic Container Registry (ECR) is a fully managed container registry se
   
 </details>
 
+## AWS Lambda
 ## Gateway
 
 <details>
