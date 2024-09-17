@@ -71,6 +71,7 @@
   + **Container Instance -** This is just an _**EC2**_ instance that is part of an _**ECS Cluster**_ and has docker and the ecs-agent running on it.
 
   ![](images/task_vs_container_defination.png)
+  ![](ECS_terminology.png)
 
 </details>
 
