@@ -65,6 +65,10 @@
   
 </details>
 
+### Sizing and Structure
+### Routing, Internet Gateway & Bastion Hosts
+### VPC Subnets
+
 ## Amazon Elastic Container Service (ECS)
 <details>
   <summary>What is AWS ECS</summary>
