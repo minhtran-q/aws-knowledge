@@ -72,7 +72,7 @@
   + **Cluster -** A logic group of _**EC2**_ instances.
   + **Container Instance -** This is just an _**EC2**_ instance that is part of an _**ECS Cluster**_ and has docker and the ecs-agent running on it.
 
-  [](images/ecs_cluster.png)
+  ![](images/ecs_cluster.png)
 
 </details>
 
