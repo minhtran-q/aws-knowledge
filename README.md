@@ -86,6 +86,8 @@
   <summary>EC2 Mode</summary>
   <br/>
 
+  ![](images/ec2_mode.png)
+
 </details>
 <details>
   <summary>Fargate Mode</summary>
