@@ -100,6 +100,8 @@
   <summary>Fargate Mode</summary>
   <br/>
 
+  ![](images/fargate_mode.png)
+
 </details>
 <details>
   <summary>Fargate vs EC2 Mode</summary>
