@@ -69,8 +69,7 @@
   + **Service -** A service manage the lifecycle of tasks, ensuring that the desired number of tasks are always running. It brings resilience and scalability to our tasks.
   + **Cluster -** A logic group of _**EC2**_ instances.
   + **Container Instance -** This is just an _**EC2**_ instance that is part of an _**ECS Cluster**_ and has docker and the ecs-agent running on it.
-
-  ![](images/task_vs_container_defination.png)
+  
   ![](ECS_terminology.png)
 
 </details>
