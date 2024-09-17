@@ -82,7 +82,7 @@
 </details>
 
 <details>
-  <summary>Fagate Mode</summary>
+  <summary>Fargate Mode</summary>
   <br/>
 
 </details>
