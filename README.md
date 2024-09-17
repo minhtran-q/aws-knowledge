@@ -134,8 +134,7 @@
 <details>
   <summary>What is AWS ECR</summary>
   <br/>
-Amazon Elastic Container Registry (ECR) is a fully managed container registry service that makes it easy for developers to store, manage, and deploy Docker container images.
-
+Amazon Elastic Container Registry (ECR) is a fully managed container registry service that makes it easy for developers to store, manage, and deploy Docker container images. Each AWS account has a public and private registry
 </details>
 
 ## Amazon Simple Storage Service (S3)
