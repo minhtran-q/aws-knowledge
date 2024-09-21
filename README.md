@@ -62,6 +62,8 @@
 <details>
   <summary>What is AWS VPC</summary>
   <br/>
+
+  Amazon Virtual Private Cloud (VPC) is a service that allows you to create a logically isolated network within the AWS cloud.
   
 </details>
 
