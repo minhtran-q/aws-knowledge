@@ -63,10 +63,27 @@
   <summary>What is AWS VPC</summary>
   <br/>
   
-  Amazon Virtual Private Cloud (VPC) is a service that allows you to create a logically isolated network within the AWS cloud.
+  Amazon Virtual Private Cloud (VPC) is a service that allows you to create a logically isolated network within the AWS cloud. 
 </details>
 
 ### VPC Subnets
+
+<details>
+  <summary>What is VPC Subnet?</summary>
+  <br/>
+
+  A subnet in Amazon VPC is a range of IP addresses within your VPC. It's created within one availablity zone (AZ) and it can nerver be changed. 
+
+  _Public and Private Subnets:_
+  + **Public Subnets:** These subnets have a route to the internet through an Internet Gateway (IGW). Instances in a public subnet can communicate directly with the internet.
+  + **Private Subnets:** These subnets do not have a direct route to the internet. Instances in a private subnet can access the internet through a NAT Gateway or NAT Instance.
+
+  _Subnet and AZ:_
+
+  + One subnet is created in a specific AZ, and a subnet can never be in multiple availability zones.
+  + One AZ can have zero or many subnets.
+  
+</details>
 
 ### Routing, Internet Gateway & Bastion Hosts
 <details>
