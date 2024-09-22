@@ -62,14 +62,23 @@
 <details>
   <summary>What is AWS VPC</summary>
   <br/>
-
-  Amazon Virtual Private Cloud (VPC) is a service that allows you to create a logically isolated network within the AWS cloud.
   
+  Amazon Virtual Private Cloud (VPC) is a service that allows you to create a logically isolated network within the AWS cloud.
 </details>
 
-### Sizing and Structure
-### Routing, Internet Gateway & Bastion Hosts
 ### VPC Subnets
+
+### Routing, Internet Gateway & Bastion Hosts
+<details>
+  <summary>Internet Gateway (IGW)</summary>
+  <br/>
+  
+</details>
+<details>
+  <summary>Route Table</summary>
+  <br/>
+  
+</details>
 
 ## Amazon Elastic Kubernetes Service (EKS)
 
