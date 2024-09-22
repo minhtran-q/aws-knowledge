@@ -312,7 +312,9 @@
 ## Gateway
 
 <details>
-  <summary>What is AWS Gateway</summary>
+  <summary>What is AWS API Gateway</summary>
   <br/>
+
+  AWS API Gateway acts as an intermediary between clients and backend services, handling various tasks to streamline and secure communication.
 
 </details>
