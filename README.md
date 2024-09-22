@@ -140,6 +140,18 @@
 <details>
   <summary>Internet Gateway (IGW)</summary>
   <br/>
+
+  Internet Gateway enables resources in your VPC, such as EC2 instances, to connect to the internet if they have a public IP address. It also allows resources on the internet to initiate connections to your VPC resources using their public IP addresses. One Internet Gateway will cover all of the AZs in the region. This is one-to-one relationship between Internet Gateway and VPC.
+
+  + One VPC can have zero or one IGW.
+  + IGW can created and not attach to a VPC, so it can zero or one VPC.
+  
+</details>
+<details>
+  <summary>IPv4 Addresses with IGW</summary>
+  <br/>
+
+  
   
 </details>
 
