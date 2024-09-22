@@ -96,7 +96,6 @@
   Subnets can communicate with orther subnets in the VPC.
   
 </details>
-
 <details>
   <summary>Subnet IP Addressing</summary>
   <br/>
@@ -111,13 +110,26 @@
 </details>
 
 ### Routing, Internet Gateway & Bastion Hosts
+
 <details>
-  <summary>Internet Gateway (IGW)</summary>
+  <summary>VPC Router</summary>
   <br/>
+
+  VPC router is a highly available device which is present in every VPC (default or custom), which moves traffic from somewhere to somewhere else. It runs in all of the availability zones that the VPC uses. The router has a network in every subnet (_Network + 1_).
   
 </details>
 <details>
   <summary>Route Table</summary>
+  <br/>
+
+  The route table associate with a subnet defines what the VPC router will do when data leaves that subnet.
+
+  
+  
+</details>
+
+<details>
+  <summary>Internet Gateway (IGW)</summary>
   <br/>
   
 </details>
