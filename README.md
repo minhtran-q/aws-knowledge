@@ -66,6 +66,16 @@
   Amazon Virtual Private Cloud (VPC) is a service that allows you to create a logically isolated network within the AWS cloud. 
 </details>
 
+### Sizing and Structure
+
+<details>
+  <summary>What is VPC CIDR</summary>
+  <br/>
+
+  A VPC CIDR (Virtual Private Cloud Classless Inter-Domain Routing) block is a range of IP addresses assigned to your VPC in AWS. For example, a CIDR block of `10.0.0.0/16` includes all IP addresses from `10.0.0.0` to `10.0.255.255`.
+   
+</details>
+
 ### VPC Subnets
 
 <details>
