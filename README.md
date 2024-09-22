@@ -122,9 +122,9 @@
   <summary>Route Table</summary>
   <br/>
 
-  The route table associate with a subnet defines what the VPC router will do when data leaves that subnet.
+  The route table associate with a subnet defines what the VPC router will do when data leaves that subnet. Each subnet in your VPC must be associated with a route table, which controls the routing for that subnet. 
 
-  
+  **How Route Table work:**
   
 </details>
 
