@@ -145,6 +145,8 @@
 
   + One VPC can have zero or one IGW.
   + IGW can created and not attach to a VPC, so it can zero or one VPC.
+
+  ![](images/IGW.png)
   
 </details>
 <details>
