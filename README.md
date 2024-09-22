@@ -153,7 +153,7 @@
   <summary>IPv4 Addresses with IGW</summary>
   <br/>
 
-  
+  ![](images/IPv4_with_IGW.png)
   
 </details>
 
