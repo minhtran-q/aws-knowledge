@@ -131,7 +131,7 @@
   + **Routes:** Each route in a table specifies a destination and a target. The destination specifies the range of IP addresses (CIDR block) that the route applies to, and the target is where you want the traffic to go. For example, to enable internet access, you might have a route with a destination of 0.0.0.0/0 (all IPv4 addresses) and a target of an internet gateway.
   + **Main Route Table:** When you create a VPC, AWS automatically creates a main route table.
   + **Subnet Route Tables:** Each subnet in your VPC must be associated with a route table. If you don’t explicitly associate a subnet with a route table, it uses the main route table by default. You can create custom route tables and associate them with specific subnets.
-  + **Local Route:** Every route table contains a local route for communication within the VPC. This route is automatically added and cannot be removed.
+  + **Local Route:** Every route table contains a `local` route for communication within the VPC. This route is automatically added and cannot be removed.
   + **Route Priority:** If there are multiple routes that match the destination IP address, the most specific route (longest prefix match) is used. For example, a route for `10.0.0.0/24` will take precedence over a route for `10.0.0.0/161`. (`10.0.0.0/24` > `10.0.0.0/161`)
   + **Static and Propagated Routes:** Routes can be static (manually added) or propagated (automatically added by AWS services like VPN connections). Static routes take priority over propagated routes if they have the same destination
   
