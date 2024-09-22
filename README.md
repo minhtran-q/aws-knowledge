@@ -92,6 +92,8 @@
 
   + One subnet is created in a specific AZ, and a subnet can never be in multiple availability zones.
   + One AZ can have zero or many subnets.
+
+  Subnets can communicate with orther subnets in the VPC.
   
 </details>
 
