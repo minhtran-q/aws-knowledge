@@ -97,6 +97,19 @@
   
 </details>
 
+<details>
+  <summary>Subnet IP Addressing</summary>
+  <br/>
+
+  There are 5 IPs adress within every VPC subnet that you can't use:
+  + Network adress (`10.16.16.0`)
+  + Network + 1 (`10.16.16.1`) - VPC Router
+  + Network + 2 (`10.16.16.2`) - Reserved (DNS*)
+  + Network + 3 (`10.16.16.3`) - Reserved Future Use
+  + Broadcast Adress (`10.16.31.255`) - Last IP in Subnet
+  
+</details>
+
 ### Routing, Internet Gateway & Bastion Hosts
 <details>
   <summary>Internet Gateway (IGW)</summary>
