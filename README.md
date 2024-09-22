@@ -154,6 +154,8 @@
   <br/>
 
   ![](images/IPv4_with_IGW.png)
+
+  The EC2 instacnce (IPv4 instance) can not aware its public IP. It just have a private IP.
   
 </details>
 
