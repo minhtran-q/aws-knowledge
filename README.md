@@ -178,6 +178,8 @@
   <br/>
 
   ECS is the AWS Docker container service that handles the orchestration and provisioning of Docker containers.
+ 
+  ![](images/high_level-ecs_cluster.png)
 
 </details>
 <details>
