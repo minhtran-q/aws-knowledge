@@ -195,6 +195,25 @@
 
 </details>
 
+<details>
+  <summary>Task vs Service</summary>
+  <br/>
+  
+  **Task:**
+  + A Task is created when you run a Task directly, which launches container(s) (defined in the task definition) until they are stopped or exit.
+  + Running Tasks directly is ideal for short-running jobs. For example: `cron` task.
+
+  **Sevice:**
+  + A Service is used to guarantee that you always have some number of Tasks _running at all times_. If a Task fails, the Service scheduler will automatically launch a new instance to replace it.
+  + A Service configuration references a Task definition. A Service is responsible for creating Tasks.
+  + A Service configuration _references_ a Task definition. A Service is responsible for _creating_ Tasks.
+
+  _Example:_ 
+
+  If I deployed my website powered by Node.JS in Oregon (us-west-2) I would want say at least three Tasks running across the three Availability Zones (AZ) for the sake of High-Availability; if one fails I have another two and the failed one will be replaced. **Creating a Service is the way to do this**.
+
+</details>
+
 ### Cluster
 <details>
   <summary>EC2 Mode</summary>
