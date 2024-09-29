@@ -232,7 +232,7 @@
 
   ![](images/fargate_mode.png)
 
-  Core of the Farget architecture is a shared Farget infrastrucure platform. You gain access to resources fram shared pool, but you have no visibility of other customers. With Fargate, you use the same task and service definition, these are then allocated to the shared Fargate platform.
+  + **Serverless:** With Fargate, you don’t need to provision, configure, or scale clusters of virtual machines to run containers.
 
 </details>
 <details>
