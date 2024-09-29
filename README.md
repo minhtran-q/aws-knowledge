@@ -321,11 +321,15 @@
   
 </details>
 
-### Performance
+### Performance Optimzation
 <details>
-  <summary>High-Performance Storage</summary>
+  <summary>Multipart Upload</summary>
   <br/>
   
+</details>
+<details>
+  <summary>Accelerated Transfer</summary>
+  <br/>
   
 </details>
 
