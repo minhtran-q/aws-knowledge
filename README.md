@@ -339,3 +339,5 @@
   AWS API Gateway acts as an intermediary between clients and backend services, handling various tasks to streamline and secure communication. API Gateway is highly avaiable and scalable, it also handle authorization, throttling, caching, CORS, transformation, OpenAPI spec, and much more.
 
 </details>
+
+### Caching
