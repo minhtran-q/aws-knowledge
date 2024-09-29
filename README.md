@@ -347,8 +347,14 @@
 <details>
   <summary>Type of APIs</summary>
   <br/>
-  
 
 </details>
 
-### Caching
+### API Gateway freatures
+<details>
+  <summary>Caching</summary>
+  <br/>
+  Caching in AWS API Gateway helps improve the performance and reduce the latency by storing responses from your backend for a specified period. By default, only `GET` methods have caching enabled.
+
+  + Time-to-Live: The TTL defines how long a cached response is stored before it is considered old. The default TTL is **300** seconds. 
+</details>
