@@ -348,18 +348,3 @@
 </details>
 
 ### Caching
-### Common problem
-
-<details>
-  <summary>How to upload a large file in API Gateway?</summary>
-  <br/>
-
-  The AWS API Gateway has a payload size limit of 10 MB. If the payload exceeds 10MB, API Gateway may reject the request and return an error (“Error 413 Request entity too large”). However, there are effective strategies to handle this:
-
-  **Upload zipped file as the payload**
-
-  **Using S3 Presigned URLs**
-  
-  **Direct Integration with S3**
-
-</details>
