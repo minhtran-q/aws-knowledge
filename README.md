@@ -340,4 +340,11 @@
 
 </details>
 
+<details>
+  <summary>Type of APIs</summary>
+  <br/>
+  
+
+</details>
+
 ### Caching
