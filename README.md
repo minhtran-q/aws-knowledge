@@ -350,7 +350,7 @@
 
 </details>
 
-### API Gateway freatures
+### API Gateway features
 <details>
   <summary>Caching</summary>
   <br/>
