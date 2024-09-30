@@ -232,7 +232,7 @@
 
   ![](images/fargate_mode.png)
 
-  + **Serverless:** With Fargate, you don’t need to provision, configure, or scale clusters of virtual machines to run containers.
+  + Serverless: Fargate is a serverless compute engine, which means that AWS manages the underlying infrastructure for you. This allows you to focus on building and running your applications without having to worry about managing servers.
 
 </details>
 <details>
