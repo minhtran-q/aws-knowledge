@@ -353,7 +353,9 @@
   <summary>What is AWS API Gateway</summary>
   <br/>
 
-  AWS API Gateway acts as an intermediary between clients and backend services, handling various tasks to streamline and secure communication. API Gateway is highly avaiable and scalable, it also handle authorization, throttling, caching, CORS, transformation, OpenAPI spec, and much more.
+  + AWS API Gateway acts as an intermediary between clients and backend services, handling various tasks to streamline and secure communication. API Gateway is highly avaiable and scalable, it also handle authorization, throttling, caching, CORS, transformation, OpenAPI spec, and much more.
+  + Lambda functions are stateless, which means no data is left over from a previous _invocation_.
+  + Every time a function is involked, it's a brand new invocation, a brand new enviroment.
 
 </details>
 
