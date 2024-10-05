@@ -334,7 +334,17 @@
 </details>
 
 ## AWS Lambda
-## Gateway
+
+<details>
+  <summary>What is AWS Lambda</summary>
+  <br/>
+
+</details>
+
+### Invacation
+### Configuration
+
+## AWS Gateway
 
 <details>
   <summary>What is AWS API Gateway</summary>
