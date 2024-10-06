@@ -468,6 +468,12 @@
 
 ### Versioning
 
+<details>
+  <summary>Versioning, Alias</summary>
+  <br/>
+  
+</details>
+
 ## AWS Gateway
 
 <details>
