@@ -342,8 +342,8 @@
   AWS Lambda is a serverless computing service. It allows you to run code without the need to provision or manage servers.
 
 </details>
-### Invacation
 
+### Invacation
 <details>
   <summary>Type of invocations</summary>
   <br/>
