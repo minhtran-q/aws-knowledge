@@ -466,8 +466,39 @@
 
 </details>
 
-
 ### Concurrency in Lambda
+
+<details>
+  <summary>Cold starts & warm starts</summary>
+  <br/>
+
+  **Cold start**
+  + A cold start occurs when Lambda needs to create a new execution environment to run the function. This happens when there are no existing environments available to handle the request.
+  + Cold starts add latency to the function invocation.
+
+  **Warm Start**
+  + A warm start occurs when an existing execution environment is reused to handle a new request. This environment has already been initialized and is ready to execute the function immediately.
+  + Warm starts have lower latency compared to cold starts.
+
+</details>
+<details>
+  <summary>Types of Concurrency</summary>
+  <br/>
+
+  Concurrency refers the number of invocations that function runs at any given moment.
+
+  + **Unreserved Concurrency:** This is the default concurrency available to all functions. It allows functions to scale automatically based on incoming requests, up to the account’s concurrency limit.
+
+  _Example:_ You have a web application that processes user uploads. The function scales automatically based on the number of uploads. When 100 users upload files simultaneously, AWS Lambda automatically scales to handle all 100 requests concurrently.
+  
+  + **Reserved Concurrency:** This sets a maximum limit on the number of concurrent instances for a specific function. It ensures that critical functions always have enough capacity to handle incoming requests.
+
+  _Example:_ You set a reserved concurrency is 50 for the payment processing function. This guarantees up to 50 instances of this function can run concurrently.
+
+  + **Provisioned Concurrency:** This pre-initializes a specified number of execution environments, making them ready to respond immediately to requests. This helps reduce cold start latency but incurs additional charges.
+
+  _Example:_ You configure provisioned concurrency is 20 for API function. AWS Lambda keeps 20 instances of the function ready to respond, it reduces the delay occurs when a function is invoked for the first time.
+</details>
 
 ### Deployment
 
@@ -480,7 +511,6 @@
     + Runtime environment (Node.js, Python, Java), momeory allocation, timeout settings, environment variables, and any other configuration parameters.
     + IAM role that function assumes when it is executed.
     + A Amazon Resource Name (ARN) to identify the specific functioin version.
-  
 </details>
 <details>
   <summary>Alias</summary>
@@ -489,6 +519,16 @@
   + Alias likes a pointer to specific versions of lambda function. And each alias has a unique Amazon Resource Name (ARN).
   + Alias only point to function versions, not orther alias.
   + Alias a mutable, meaning you can update to different version.
+</details>
+
+<details>
+  <summary>Traffic shifting</summary>
+  <br/>
+
+  You can configure an alias to route a specific percentage of traffic to different versions of your function.
+
+  For example:
+  I have a Lambda function named `A` with two versions: version 1 and version 2. You want to shift 10% of the traffic to version 2 while keeping 90% of the traffic on version 1. By this way, we can introduce the new version to catch any issues early or test performance for new version under production environment.
   
 </details>
 
