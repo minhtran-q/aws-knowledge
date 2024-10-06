@@ -362,6 +362,22 @@
   <summary>Synchronous Invocation</summary>
   <br/>
 
+  Synchronous invocation is a method where the caller waits for the function to process the event and return a response.
+
+  **How It Works**
+  + When you invoke a Lambda function synchronously, Lambda runs the function and waits for it to complete.
+  + Once the function finishes processing, Lambda returns the response. The response includes any output from the function.
+
+  There are several ways to invoke a lambda function synchronously like: API, AWS CLI, AWS SDKs, ...
+
+  **Use Cases**
+  Synchronous invocation is typically used in scenarios like
+  + We may have some clients use web application via API Gateway and this proxies through to one or more Lambda functions. Clients wait for a response within their web application. And then Lambda functions responds this goes back via API Getway and back through to the client.
+
+  **Error handling:**
+  + Any errors or retries have be handle within the client.
+  + If there's a problem or data is not processed correctly, the client needs to re-run the request and this happen at the client side.
+  
   ![](images/sync_invocation.png)
   
 </details>
