@@ -377,6 +377,8 @@
   <summary>Event Source Mapping</summary>
   <br/>
 
+  ![](images/event_source_mapping.png)
+
 </details>
 
 ### Configuration
