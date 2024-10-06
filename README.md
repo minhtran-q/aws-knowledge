@@ -373,7 +373,7 @@
   ![](images/async_invocation.png)
 
 </details>
-
+<details>
   <summary>Event Source Mapping</summary>
   <br/>
 
