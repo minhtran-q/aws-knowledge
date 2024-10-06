@@ -346,7 +346,9 @@
   + When an event occurs, Lambda provisions the necessary resources and runs your code.
   + The function processes the event and returns a response.
 
-  _Note:_ Lambda function is stateless which means no data is left onver from a previous invocation.
+  _Note:_ 
+  + Lambda function is stateless which means no data is left onver from a previous invocation.
+  + Lambda function can run for upto 900 seconds or 15 minutes, after this time, the function timeout.
   
 </details>
 
@@ -355,12 +357,27 @@
   <summary>Lambda package deployment</summary>
   <br/>
 
-  
+  AWS Lambda supports multiple runtimes, including:
+  + Node.js
+  + Python
+  + Java
+  + Go
+  + Ruby
+  + .NET Core
 
 </details>
 <details>
   <summary>Memory Allocation</summary>
   <br/>
+
+  Memory Allocation is a configuration setting that directly impacts the function's performance, cost, and resource utilization. It determines the amount of RAM that will be available to our function when it's invoked.
+
+  + **Memory Range:** You can allocate between 128 MB (default) and 10,240 MB of memory to your Lambda function.
+  + **CPU Proportionality**: we don't directly controle amount of virtual CPU, this scales with the memory. So 1768 MD of memory gives you one vCPU of allocation. So the less memory means less virtual CPUs.
+
+  _Note:_ 
+  + Increasing the memory allocation can significantly improve the performance of your function. This is because more memory also means more CPU power.
+  + AWS Lambda charges based on the total amount of memory allocated and the duration of the function’s execution.
 
 </details>
 <details>
