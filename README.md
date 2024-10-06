@@ -339,18 +339,32 @@
   <summary>What is AWS Lambda</summary>
   <br/>
 
-  AWS Lambda is a serverless computing service. It allows you to run code without the need to provision or manage servers.
+  AWS Lambda is a serverless computing service. It allows you to run code without the need to provision or manage servers. 
 
+  **How it work?**
+  + You start by creating a Lambda function and uploading your code via direct upload or S3.
+  + When an event occurs, Lambda provisions the necessary resources and runs your code.
+  + The function processes the event and returns a response.
+
+  _Note:_ Lambda function is stateless which means no data is left onver from a previous invocation.
+  
 </details>
 
 ### Define Lambda function
+<details>
+  <summary>Lambda package deployment</summary>
+  <br/>
+
+  
+
+</details>
 <details>
   <summary>Memory Allocation</summary>
   <br/>
 
 </details>
 <details>
-  <summary>Lambda package deployment</summary>
+  <summary>Size of package deployment</summary>
   <br/>
 
   The maximum package size for lambda function package depeneds on how we upload it:
