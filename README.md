@@ -469,10 +469,15 @@
 
 ### Concurrency in Lambda
 
-### Versioning
+### Deployment
 
 <details>
-  <summary>Versioning, Alias</summary>
+  <summary>Versioning</summary>
+  <br/>
+  
+</details>
+<details>
+  <summary>Alias</summary>
   <br/>
   
 </details>
