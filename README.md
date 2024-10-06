@@ -353,6 +353,14 @@
   <summary>Lambda package deployment</summary>
   <br/>
 
+  The maximum package size for lambda function package depeneds on how we upload it:
+  + **Direct Upload:** The deployment package size is limited to **50 MB** when uploaded directly through the Lambda console or API.
+  + **Amazon S3:** If we upload our package to S3 and then link it to your Lambda function, the package size can be up to **250 MB**.
+
+  _Note:_
+  + The method you use to deploy your AWS Lambda function does not directly impact the execution time of the function. Larger packages, might take slightly longer to load and initialize, especially during starting time. 
+  + However, once the function is warm, the execution time should not be significantly affected by the deployment method.
+
 </details>
 
 ### Invacation
