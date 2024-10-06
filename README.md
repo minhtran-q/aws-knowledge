@@ -349,9 +349,12 @@
   <br/>
 
   Invocation refers to the process of executing a Lambda function. There are several ways to invoke a Lambda function:
+  
   + **Synchronous Invocation:** The caller waits for the function to process the event and return a response. 
   + **Asynchronous Invocation:** The caller gets an immediate response that the request has been received, but doesn't wait for the function to complete.
-  + **Event Source Mapping:** 
+  + **Event Source Mapping with Polling Invocation:**
+
+  ![](images/type_of_invocations.png)
   
 </details>
 
