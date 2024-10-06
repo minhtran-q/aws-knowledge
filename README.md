@@ -335,7 +335,7 @@
 
 ## AWS Lambda
 
-<details>
+<details>mời gọitham giatham gia
   <summary>What is AWS Lambda</summary>
   <br/>
 
@@ -352,7 +352,7 @@
   
   + **Synchronous Invocation:** The caller waits for the function to process the event and return a response. 
   + **Asynchronous Invocation:** The caller gets an immediate response that the request has been received, but doesn't wait for the function to complete.
-  + **Event Source Mapping with Polling Invocation:**
+  + **Event Source Mapping with Polling Invocation:** It reads items from stream or queue-based services and invoke a function with batches of records. 
 
   ![](images/type_of_invocations.png)
   
@@ -362,11 +362,15 @@
   <summary>Synchronous Invocation</summary>
   <br/>
 
+  ![](images/sync_invocation.png)
+  
 </details>
 
 <details>
   <summary>Asynchronous Invocation</summary>
   <br/>
+
+  ![](images/async_invocation.png)
 
 </details>
 
