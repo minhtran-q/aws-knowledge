@@ -484,6 +484,7 @@
 
 ### Permission
 
+### Scaling and Pricing
 
 ## AWS Gateway
 
