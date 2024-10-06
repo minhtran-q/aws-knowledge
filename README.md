@@ -335,11 +335,23 @@
 
 ## AWS Lambda
 
-<details>mời gọitham giatham gia
+<details>
   <summary>What is AWS Lambda</summary>
   <br/>
 
   AWS Lambda is a serverless computing service. It allows you to run code without the need to provision or manage servers.
+
+</details>
+
+### Define Lambda function
+<details>
+  <summary>Memory Allocation</summary>
+  <br/>
+
+</details>
+<details>
+  <summary>Lambda package deployment</summary>
+  <br/>
 
 </details>
 
@@ -415,8 +427,7 @@
 
 </details>
 
-### Configuration
-### Deployment
+### Versioning
 
 ## AWS Gateway
 
