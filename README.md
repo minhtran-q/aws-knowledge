@@ -342,8 +342,36 @@
   AWS Lambda is a serverless computing service. It allows you to run code without the need to provision or manage servers.
 
 </details>
-
 ### Invacation
+
+<details>
+  <summary>Type of invocations</summary>
+  <br/>
+
+  Invocation refers to the process of executing a Lambda function. There are several ways to invoke a Lambda function:
+  + **Synchronous Invocation:** The caller waits for the function to process the event and return a response. 
+  + **Asynchronous Invocation:** The caller gets an immediate response that the request has been received, but doesn't wait for the function to complete.
+  + **Event Source Mapping:** 
+  
+</details>
+
+<details>
+  <summary>Synchronous Invocation</summary>
+  <br/>
+
+</details>
+
+<details>
+  <summary>Asynchronous Invocation</summary>
+  <br/>
+
+</details>
+
+  <summary>Event Source Mapping</summary>
+  <br/>
+
+</details>
+
 ### Configuration
 ### Deployment
 
