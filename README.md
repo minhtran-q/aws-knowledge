@@ -472,13 +472,23 @@
 ### Deployment
 
 <details>
-  <summary>Versioning</summary>
+  <summary>Version</summary>
   <br/>
+
+  + A function version includes:
+    + Function code, associate dependencies.
+    + Runtime environment (Node.js, Python, Java), momeory allocation, timeout settings, environment variables, and any other configuration parameters.
+    + IAM role that function assumes when it is executed.
+    + A Amazon Resource Name (ARN) to identify the specific functioin version.
   
 </details>
 <details>
   <summary>Alias</summary>
   <br/>
+
+  + Alias likes a pointer to specific versions of lambda function. And each alias has a unique Amazon Resource Name (ARN).
+  + Alias only point to function versions, not orther alias.
+  + Alias a mutable, meaning you can update to different version.
   
 </details>
 
