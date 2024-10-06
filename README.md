@@ -364,13 +364,13 @@
 
   Synchronous invocation is a method where the caller waits for the function to process the event and return a response.
 
-  **How It Works**
+  **How it works**
   + When you invoke a Lambda function synchronously, Lambda runs the function and waits for it to complete.
   + Once the function finishes processing, Lambda returns the response. The response includes any output from the function.
 
   There are several ways to invoke a lambda function synchronously like: API, AWS CLI, AWS SDKs, ...
 
-  **Use Cases**
+  **Use cases**
   Synchronous invocation is typically used in scenarios like
   + We may have some clients use web application via API Gateway and this proxies through to one or more Lambda functions. Clients wait for a response within their web application. And then Lambda functions responds this goes back via API Getway and back through to the client.
 
@@ -385,6 +385,24 @@
 <details>
   <summary>Asynchronous Invocation</summary>
   <br/>
+
+  Asynchronous invocation allows we to invoke a function without waiting for it to complete.
+
+  **How it works**
+
+  + When you invoke a Lambda function asynchronously, the event is placed in a queue.
+  + Lambda returns a success response immediately, without waiting for the function to finish executing.
+  + So event processed by Lambda functions can delivered to another destination such as SQS, SNS, or another lambda function.
+
+  **Use cases**
+
+  + When an image is uploaded to the S3 bucket, an `ObjectCreated` event is generated. The event triggers the Lambda function asynchronously. The Lambda function downloads the image, creates a thumbnail, and uploads the thumbnail back to the S3 bucket.
+  + Suitable for tasks that don’t require an immediate response, such as sending notifications, generating reports.
+
+  **Error Handling:**
+  + If processing of event fails, lambda will retry between 0 and 2 times. Lambda is responsible for the retry logic.
+  + The function code needs to be idempotent. It means we can retry the operation as many times as we want and the outcome will be the same.
+  + After exceeding the number of automatic retries, lambda will sent the event to a DLQ. 
 
   ![](images/async_invocation.png)
 
