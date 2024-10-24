@@ -394,6 +394,16 @@
 
 </details>
 
+<details>
+  <summary>Lambda configuration</summary>
+  <br/>
+
+  + **Default Timeout:** The default timeout for AWS Lambda functions is 3 seconds.
+  + **Maximum Timeout:** The maximum allowed timeout is 15 minutes (900 seconds).
+  + **Inactivity Timeout:** If the Lambda function has not been invoked for several minutes (typically around 5 to 15 minutes)
+
+</details>
+
 ### Invacation
 <details>
   <summary>Type of invocations</summary>
