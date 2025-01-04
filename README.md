@@ -264,7 +264,9 @@
   <summary>Health check</summary>
   <br/>
 
-  
+  _Configuration:_
+
+  + 
 
 </details>
 
